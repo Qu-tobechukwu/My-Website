@@ -1,139 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Precious Emeruem – Tech & Operations Specialist</title>
-<style>
-/* GLOBAL STYLES */
-* {margin:0; padding:0; box-sizing:border-box;}
-body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; color:#333; background:#f4f6f8;}
-a {text-decoration:none;}
-
-/* HEADER */
-header {
-  background: linear-gradient(135deg, #1a73e8, #4285f4);
-  color:white; 
-  text-align:center;
-  padding:4rem 1rem 3rem 1rem;
+body {
+  font-family: Inter, Arial, sans-serif;
+  margin: 0;
+  background: #F5F7FA;
+  color: #111827;
+  line-height: 1.7;
 }
-header h1 {font-size:3rem; margin-bottom:0.5rem;}
-header p {font-size:1.3rem; margin-bottom:1.5rem;}
-header .cta-button {
-  display:inline-block;
-  padding:1rem 2rem;
-  background:#25D366;
-  color:white;
-  font-weight:bold;
-  border-radius:8px;
-  transition:0.3s;
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 3rem 2rem;
 }
-header .cta-button:hover {background:#128C7E; transform:translateY(-2px);}
 
-/* NAVIGATION */
-nav {margin-top:2rem;}
-nav a {color:white; margin:0 1rem; font-weight:bold; transition:0.3s;}
-nav a:hover {color:#ffd700;}
-
-/* MAIN SECTIONS */
-main {max-width:1000px; margin:auto;}
-section {padding:5rem 1rem;}
-section:nth-child(even){background:#fff;}
-section:nth-child(odd){background:#f4f6f8;}
-section h2 {color:#1a73e8; font-size:2rem; margin-bottom:1rem; text-align:center;}
-section p {max-width:800px; margin:auto 0 1.5rem 0; font-size:1.1rem; line-height:1.8; text-align:center;}
-
-/* LISTS / CARDS */
-ul {list-style:none; display:flex; flex-wrap:wrap; justify-content:center; gap:1rem;}
-ul li {background:white; padding:1rem 1.5rem; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); flex:1 1 200px; max-width:250px; text-align:center; transition:0.3s;}
-ul li:hover {transform:translateY(-5px); box-shadow:0 8px 16px rgba(0,0,0,0.2);}
-
-/* CTA BUTTON */
-.cta-button {display:inline-block; padding:1rem 2rem; background:#25D366; color:white; font-weight:bold; border-radius:8px; transition:0.3s; margin-top:1rem;}
-.cta-button:hover {background:#128C7E; transform:translateY(-2px);}
-
-/* WORK / PROJECTS */
-.work-item {background:white; padding:1.5rem; border-radius:10px; margin:1rem auto; max-width:800px; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:0.3s;}
-.work-item:hover {transform:translateY(-5px); box-shadow:0 8px 16px rgba(0,0,0,0.2);}
-
-/* FOOTER */
-footer {text-align:center; padding:2rem 1rem; background:#1a73e8; color:white;}
-footer p {margin:0;}
-
-/* RESPONSIVE */
-@media(max-width:768px){
-  ul {flex-direction:column; gap:1rem;}
-  header h1 {font-size:2.2rem;}
-  header p {font-size:1.1rem;}
-  section h2 {font-size:1.8rem;}
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.2rem;
+  color: #2C3E73;
 }
-</style>
-</head>
-<body>
 
-<header>
-  <h1>Precious Emeruem</h1>
-  <p>Tech & Operations Specialist | Client Support & Workflow Optimization</p>
-  <a href="https://wa.me/YourNumberHere" target="_blank" class="cta-button">Chat on WhatsApp</a>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#expertise">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#work">Work</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+h2 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: #2C3E73;
+  border-bottom: 2px solid #E6EAF0;
+  padding-bottom: 0.4rem;
+}
 
-<main>
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #2C3E73;
+}
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>Tech-savvy and people-focused operations professional with experience in client support, workflow management, and project execution. Skilled in optimizing processes, coordinating projects, and collaborating with core teams to deliver high-quality results. Passionate about improving efficiency, ensuring smooth operations, and building strong client relationships.</p>
-</section>
+p {
+  margin: 0.8rem 0;
+  font-size: 1.05rem;
+}
 
-<section id="expertise">
-  <h2>Areas of Expertise & Tools</h2>
-  <ul>
-    <li>Workflow & Process Optimization</li>
-    <li>Project Coordination & Execution</li>
-    <li>Client Onboarding & Support</li>
-    <li>Team Collaboration & Communication</li>
-    <li>Documentation & Reporting</li>
-    <li>Windows, Microsoft 365, Google Workspace</li>
-    <li>Jira, Notion, Slack, Zoom</li>
-    <li>GitHub, AWS (Architect Trained), Canva</li>
-  </ul>
-</section>
+ul {
+  padding-left: 1.2rem;
+}
 
-<section id="projects">
-  <h2>Project Impacts</h2>
-  <ul>
-    <li>Improved workflows at MetaSolves, helping the team deliver multiple client projects on time</li>
-    <li>Maintained 5-star support ratings at 2U by streamlining learner support processes</li>
-    <li>Created TechTobe101 content strategy, growing engagement by 500+ learners in 2 weeks</li>
-    <li>Assisted with documentation & process improvements at Dominion Systems</li>
-  </ul>
-</section>
+li {
+  margin-bottom: 0.45rem;
+}
 
-<section id="work">
-  <h2>Work History</h2>
-  <div class="work-item"><strong>MetaSolves</strong> – Technical Operations & Client Support Specialist (Aug 2025 – Present)<br>Managed client projects, internal workflows, and operational tasks end-to-end.</div>
-  <div class="work-item"><strong>2U</strong> – People & Technical Support Specialist (Oct 2023 – Jun 2025)<br>Delivered operational support for cybersecurity learners and streamlined processes.</div>
-  <div class="work-item"><strong>Dominion Systems Inc</strong> – DevOps & Technical Writing Intern (Jan 2023 – Jul 2023)<br>Assisted engineers with workflow, documentation, and operational tasks.</div>
-</section>
+.title {
+  font-size: 1.15rem;
+  color: #374151;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
 
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>If you’re ready to streamline your operations and focus on delivering top-quality software, reach out to me directly on WhatsApp:</p>
-  <a href="https://wa.me/YourNumberHere" target="_blank" class="cta-button">Chat on WhatsApp</a>
-  <p style="margin-top:1rem;font-size:0.9rem;color:#555;">Replace "YourNumberHere" with your full international WhatsApp number (e.g., 27712345678 for South Africa +27 71 234 5678).</p>
-</section>
+.contact {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #374151;
+}
 
-</main>
+.cta {
+  margin-top: 2rem;
+}
 
-<footer>
-  <p>© 2025 Precious Emeruem</p>
-</footer>
+.cta a {
+  display: inline-block;
+  padding: 0.85rem 1.6rem;
+  background: #16A34A;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
 
-</body>
-</html>
+.cta a:hover {
+  background: #15803D;
+}
+
+.job {
+  margin-top: 1.2rem;
+  padding-left: 1rem;
+  border-left: 3px solid #2C3E73;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #6B7280;
+  font-size: 0.9rem;
+}
