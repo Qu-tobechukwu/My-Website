@@ -102,6 +102,12 @@ li {
   background: #15803D;
 }
 
+.hero-note {
+  font-size: 0.9rem;
+  color: #6B7280;
+  margin-top: 0.5rem;
+}
+
 .hero-image img {
   width: 100%;
   max-width: 260px;
@@ -127,14 +133,6 @@ li {
 
 .cta-buttons a.primary:hover {
   background: #15803D;
-}
-
-/* ---------- Calendly ---------- */
-iframe {
-  width: 100%;
-  height: 650px;
-  border: none;
-  margin-top: 2rem;
 }
 
 /* ---------- Footer ---------- */
